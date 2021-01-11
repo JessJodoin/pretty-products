@@ -78,12 +78,17 @@ p {
   align-items: center;
 }
 
-.tool-bar li {
+.tool-bar li:first-child {
+  margin: 0 auto 0 0;
   padding: 0 .25em;
 }
 
-.tool-bar li:first-child {
-  margin: 0 auto 0 0;
+.tool-bar li:nth-child(2) {
+  padding: 0 .25em;
+}
+
+.tool-bar li:last-child {
+  padding: 0 .5em;
 }
 
 .tool-bar a {
